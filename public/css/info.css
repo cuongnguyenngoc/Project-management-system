@@ -1,0 +1,35 @@
+#info{
+	margin: 0 auto; 
+	width:800px;
+	font-weight: bold;
+	color:black;
+}
+li>textarea{margin: 10px;}
+#info li{
+	padding-left:30px;
+	padding-top: 20px;
+	background-color:pink; 
+	border-top: 1px black solid;
+	border-radius: 11px;
+}
+#info h3{
+	font-size: 20px;
+	color:black;
+}
+.button{
+	width:800px;
+	position:relative;
+	bottom:20px;
+	right:31px;
+	height:50px;
+	border-radius:11px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: green;
+}
+.button:hover{
+	background-color: blue;
+}
+.address {margin-left: 20px;width:300px;height:25px;padding:0px;border-radius: 10px;padding-left:5px;}
+.pass {margin-left: 20px;width:300px;height:25px;padding:0px;border-radius: 10px;padding-left:5px;}
+h2 { text-align:center;font-weight:bold;color:blue}

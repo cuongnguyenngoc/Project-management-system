@@ -1,0 +1,274 @@
+*{ padding: 0px; margin: 0px;}
+
+body{ font: 12px/17px Arial,Helvetica,sans-serif;}
+
+ul li{ list-style-type: none; text-decoration: none; }
+
+a { color: #117E0A; text-decoration: none; font-size: 14px}
+
+a:hover{ text-decoration: underline;}
+
+h3{ margin: 10px; padding: 5px;}
+h4{ margin: 10px; padding: 5px;}
+input,select {
+    border-radius: 3px;
+    border: none;
+}
+
+table{ border-collapse: collapse; }
+table, td, th {border: 1px solid black; padding: 5px; background-color: yellowgreen ; width: 1000px; font-size: 13px;} 
+
+.clear{ clear: both; display: block;}
+
+#container{ background: #fff;  background-image:url('../images/backbody.png') }
+
+.wrapper_header{ margin: 0px auto; width: 1100px;}
+
+.wrapper{
+    margin: 0px auto;
+    width: 1000px;
+}
+.node{float:left;clear:left;margin-left: 400px;}
+.node label {float:left;}
+.node input {float:left;clear:left;}
+.node select {float:left;clear:left;}
+.sp{ margin-left:100px; }
+.sp textarea {float:left;}
+
+.mainHeader{margin-bottom: 25px;margin-top: 10px; border: 1px solid #75AB00; padding: 10px; background-color: #75AB00}
+#header{  }
+
+#top_header{ background: #353333; position: relative; background-image:url('../images/backtop.png');border-radius:10px;margin:1px;box-shadow:1px 1px 1px 1px blue; padding-top: 25px; padding-bottom: 40px; }
+
+#top_header h1{ float: left; position: absolute; top: 90px; left: 120px;}
+
+#top_header h1 p{ text-align: center; color: rgb(10, 107, 15); font-size: 40px; padding: 10px;}
+
+#logo{ float: left; }
+
+#logo img{ width: 104px; height: 150px;}
+
+#like{ float: right; }
+
+#like ul{  }
+
+#like ul li { float: left; margin-right: 4px; }
+
+#like ul li a{ }
+
+#like ul li a img{ width: 20px; height: 14px; margin-top: 10px;}
+
+.signin-signup{ float: right;}
+.signin-signup>form{ margin-right: 5px;}
+.signin-signup>form>div{ display: inline;}
+.signin-signup .input{}
+.signin-signup .input label{  color: #fff; font-size: 12px;}
+.signin-signup .input>input{ width: 100px; margin: 4px; outline: none; border-radius: 3px; border: none; padding: 1px;}
+.signin-signup>form .submit{  float: right; margin-top: 5px;}
+.signin-signup>form .submit input{ margin-right: 4px; border: none; padding: 2px;}
+
+.signin-signup p{color: #fff; font-size: 14px; margin-right: 10px;}
+.signin-signup p a{color: #fff; font-size: 14px; margin-right: 10px;}
+#navigation{ background: #181818; background-image:url('../images/backmenu.png');border-radius:10px;padding:2px;border:1px blue solid}
+.logo{ float: left;}
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+
+.menu{
+    float: left;
+
+}
+.menu ul{
+
+}
+.menu>ul li{
+    position: relative;
+}
+.menu ul li .sub_menu{ position: absolute; width: 282px; background: #181818; top: 0px; left: 100%;border:1px red solid; display: none;background-image:url('../images/backsubmenu.png')}
+.menu ul li:hover{ background: #333333;}
+
+.menu ul li:hover >.sub_menu{ display: block;}
+
+.menu>ul>li>.sub_menu{ position: absolute;top: 57px; left: 0px;font-weight:bold;border-radius:5px;border:1px red solid}
+.menu>ul>li{ float: left; border-right: 1px solid #B0A9A9;}
+.menu>ul>li:last-child{
+    border-right: none;
+}
+.menu>ul>li a{
+    display: block; padding: 10px; text-transform: none;
+
+}
+.menu>ul>li>a{
+    text-transform: uppercase; padding: 20px; font-weight:bold;	
+}
+.main_link{
+
+}
+.main_link a{
+
+}
+.sub_menu{
+
+}
+.sub_menu li{
+
+}
+.sub_menu li a{
+
+}
+#menu{
+
+}
+#search{
+    float: right;
+
+}
+#search form {
+
+}
+#search form input{
+    margin: 15px;  
+    padding: 6px;
+    outline: none;
+    border: none;
+    background: #908787;
+    border-radius: 3px;
+}
+.content{
+    margin: 0px auto 100px;
+    width: 1100px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color:rgb(215, 215, 215);
+    border: 1px red solid;
+}
+#news{padding-top: 20px; padding-bottom: 20px; border: 1px solid green; background-color: green; border-radius: 5px;}
+#news marquee{ color: #02047A; font-size: 20px;}
+#sidebar-a{
+    float: left;
+    background: rgb(19, 152, 19);
+    padding-left: 6px;
+}
+#sidebar-a ul{
+
+}
+#sidebar-a ul li{
+    padding: 7px;
+    padding-right: 103px;
+    padding-top: 20px;
+}
+#sidebar-a ul li:hover {
+    background: green;
+}
+#sidebar-a ul li a{
+    color: #fff;
+}
+#content_center{
+
+    float: left;
+
+
+}
+.context{
+    padding: 10px;
+    width: 464px;
+    float: left;
+
+}
+.context h3{
+    padding: 10px;
+}
+.context h3 a {
+    line-height: 1.5;
+}
+.context img{
+    float: left;  
+    padding: 10px;
+}
+.context p{
+    line-height: 1.5;
+}
+#sidebar-b{
+    float: right;
+
+}
+
+/*********FORM**********/
+#frame{ margin-top: 18px; }
+
+#frame>p>input{ margin-top: 10px; padding: 2px; padding-left: 12px; padding-right: 12px;}
+fieldset{
+    border-radius: 5px;
+}
+legend{ background-color: #A9FFA0; color: #023604;padding: 3px 23px; border-radius: 5px; margin-left: 5px; font-size: 16px;}
+
+fieldset div{ margin: 11px;}
+
+fieldset div label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+fieldset div input{ border-radius: 5px; padding:3px; border:none;width: 218px;}
+
+p>input{padding: 5px; margin: 10px; font-size: 14; background-color: rgb(26, 113, 11);}
+
+fieldset div select{ border-radius: 5px; padding:3px; border:none; width: 224px;}
+
+.required{
+    color: red;
+}
+.warning{
+    color: red;
+}
+.success{
+    color: green;
+}
+.assign{ padding: 5px; margin-top: 10px; background-color: yellow;}
+.website{ display: none; visibility: hidden;}
+/*********End of Form**********/
+label>h3{ 
+    margin-top: 20px;
+    color: #1A24E9;
+    background-color: #75AB00;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#footer{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background: gray;
+}
+#footer ul{
+    float: right;
+}
+#footer ul li{
+    padding-right: 20px;
+    display: inline;
+}
+#footer ul li a{
+    color: #fff;
+}
+.error{margin-right: 10px; display: inline; color: red}
+.notice {
+    font-size: 25px;
+    padding: 22px;
+    margin-left: 25px;
+}
+.fail {
+    font-size: 25px;
+    padding: 22px;
+    margin-left: 25px;
+    color: red;
+}
+#footer{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background: rgb(14, 21, 14);
+}
+#footer p{ text-align: center; color: #fff; font-size: 15px;}
+.about>p{ font-size: 16px; color: green; padding: 10px;}
